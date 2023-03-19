@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #635985;
+}
+
+.links {
+    margin-right: 2rem;
+    padding: .5rem;
+}
+.n-links:hover {
+    color: white;
+}
+
+.img {
+    width: 6%;
+    border-radius: 100%;
+}
+
+.dp {
+    background-color: #635985;
+    height: 100px;
+    text-align: center;
+}
+
+.dp-img {
+    border-radius: 100%;
+    width: 10%;
+    margin-top: 1%;
+}
+
+hr {
+    margin: 0;
+    border: solid 1px black;
+    opacity: 1;
+}
+
+.heading {
+    background-color: #635985;
+}
+
+.Skill {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: rgb(194, 187, 187);
+    line-height: 2;
+    padding: 15%;
+    margin-top: 10%;
+    transition-property: font-size color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.Skill:hover {
+    font-size: x-large;
+    color: black;
+}
+
+.data-img {
+    text-align: center;
+
+}
+
+.data-image {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.main {
+    text-align: center;
+}
+
+.py-logo {
+
+    width: 25%;
+    margin-left: 70%;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+#python-logo {
+    width: 25%;
+    margin-left: 70%;
+    margin-top: 20%;
+    margin-bottom: 3%;
+
+}
+
+#python-name {
+    margin-left: 70%;
+}
+
+#python-skill {
+    font-family: Montserrat;
+    color: rgb(116, 110, 110);
+    margin-top: 30%;
+    margin-left: 0%;
+    margin-right: 30%;
+}
+
+#visual-skill,
+#web-skill {
+    margin-top: 25%;
+}
+
+.sql-logo {
+    width: 25%;
+    margin-left: 75%;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+.logo-name {
+    margin-left: 70%;
+    font-family: "sans-serif";
+
+}
+
+
+.skills {
+    font-family: Montserrat;
+    font-size: 17px;
+    color: rgb(116, 110, 110);
+    margin-top: 20%;
+    margin-left: 0%;
+    margin-right: 30%;
+}
+
+@media (max-width:1000px) {
+
+    .py-logo {
+        width: 25%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 15%;
+    }
+
+    #python-logo {
+        width: 25%;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 20%;
+
+    }
+
+    #python-name {
+        margin-left: 0%;
+    }
+
+    #python-skill {
+        font-family: Montserrat;
+        color: rgb(116, 110, 110);
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #visual-skill {
+        font-size: 21px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4%;
+    }
+
+    .sql-logo {
+        width: 25%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+
+    .logo-name {
+        margin-left: 0%;
+    }
+
+    .skills {
+        font-size: 21px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4%;
+    }
+
+    .dp-img {
+        margin-top: 2%;
+        width: 20%;
+    }
+
+    .Skill {
+        margin-left: 18%;
+        margin-right: 18%;
+        font-size: 20px;
+        padding: 4%;
+        margin-top: 5%;
+    }
+
+    .data-image {
+        width: 45%;
+        padding-top: 8%;
+    }
+}
+
+@media(max-width:750px) {
+
+    .py-logo {
+        width: 40%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 13%;
+    }
+
+    #python-logo {
+        width: 40%;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 28%;
+
+    }
+
+    #python-name {
+        margin-left: 0%;
+    }
+
+    #python-skill {
+        font-family: Montserrat;
+        font-size: 12px;
+        color: rgb(116, 110, 110);
+        margin-top: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #visual-skill {
+        font-size: 12px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 3%;
+    }
+
+    .sql-logo {
+        width: 40%;
+        text-align: center;
+        margin-left: 11%;
+        margin-top: 13%;
+    }
+
+    .logo-name {
+        margin: 0;
+    }
+
+    .skills {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 7%;
+        font-size: 12px;
+    }
+
+    .dp-img {
+        margin-top: 10%;
+        width: 35%;
+    }
+
+    .Skill {
+        font-size: 15px;
+        padding: 4%;
+        margin-top: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .Skill:hover {
+        font-size: 20px;
+    }
+
+    .data-image {
+        width: 60%;
+        padding-top: 10%;
+    }
+
+    .dp-img {
+        margin-top: 12%;
+        width: 30%;
+    }
+}

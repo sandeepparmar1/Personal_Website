@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.navbar {
+    background-color: #E69A8DFF;
+}
+
+.img {
+    width: 6%;
+    border-radius: 100%;
+    margin-top: 1%;
+}
+
+.links {
+    margin-right: 2rem;
+    padding: .5rem;
+}
+
+.navi:hover {
+    color: white;
+
+}
+
+
+/* INTRODUCTION PAGE */
+.topcontainer {
+    text-align: center;
+    background-color: #E69A8DFF;
+}
+
+.name-title {
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.name {
+    font-family: 'Sacramento', cursive;
+    font-size: 360%;
+    color: #616247FF;
+}
+
+.name1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    color: #616247FF;
+}
+
+.gif {
+    width: 75%;
+    height: auto;
+}
+
+.intro {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: black;
+    line-height: 2;
+    padding: 10%;
+    transition-property: font-size color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.intro:hover {
+    font-size: x-large;
+    color: #F2EDD7FF;
+}
+
+/* MID PAGE */
+
+.mid_page {
+    background-color: white;
+}
+
+.python {
+    text-align: center;
+    padding: 5%;
+}
+
+.p {
+    color: rgb(116, 110, 110);
+    line-height: 2;
+}
+
+
+/* CAROUSEL BOOTSTRAP SLIDES */
+
+.slide {
+    background-color: #404040;
+    text-align: center;
+    padding: 2%;
+}
+
+.s-work {
+    color: #ADEFD1FF;
+    font-family: Montserrat;
+}
+
+.slides {
+    width: 50%;
+}
+
+.slide-intro {
+    color: #ADEFD1FF;
+    margin-top: 1%;
+    font-family: Merriweather;
+}
+
+
+.footer {
+    background-color: #E69A8DFF;
+    text-align: center;
+}
+
+.detail {
+    position: relative;
+    margin-left: 70%;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.detail:hover {
+    color: black;
+}
+
+.details:hover {
+    color: black;
+}
+
+.details {
+    position: relative;
+    margin-right: 70%;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.copyright {
+    margin: 0;
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+
+.row {
+    padding-top: 3%;
+}
+
+.foot{
+    position: relative;
+    padding-top: 0.5%;
+    font-family: Merriweather;
+    
+}
+
+
+
+@media (max-width:1200px) {
+
+    .slides {
+        width: 80%;
+    }
+
+    .detail {
+        margin-left: 0;
+    }
+
+    .details {
+        margin-right: 0;
+    }
+
+    .intro {
+        font-size: 18px;
+    }
+
+    .intro:hover {
+        font-size: 21px;
+    }
+}
